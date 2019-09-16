@@ -8,7 +8,7 @@ import controlStyle from '@lemuria/control-style'
 
 %~%
 
-```## controlStyle
+```## controlStyle => string | Object
 [
   ["style", "string|undefined"],
   ["props", "Object<string, ?>"]
