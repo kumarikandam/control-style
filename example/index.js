@@ -1,9 +1,20 @@
-/* alanode example/ */
 import controlStyle from '../src'
 
-(async () => {
-  const res = await controlStyle({
-    text: 'example',
-  })
-  console.log(res)
-})()
+const Component = ({ style, ...props }) => {
+  return controlStyle(style, props)
+}
+
+// return as string
+const res = Component({
+  style: 'padding: 10px',
+  margin: '1rem',
+  'border-radius': '5px'
+})
+console.log(res)
+
+// return as object
+const res1 = Component({
+  margin: '1rem',
+  'border-radius': '5px',
+})
+console.log(res1)

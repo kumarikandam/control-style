@@ -31,14 +31,21 @@
   },
   "keywords": [
     "control-style",
-    "lemuria"
+    "lemuria",
+    "css",
+    "styles",
+    "preact",
+    "react",
+    "components",
+    "properties",
+    "attributes"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kumarikandam/control-style/issues"
   },
-  "homepage": "https://github.com/kumarikandam/control-style#readme",
+  "homepage": "https://artd.eco",
   "devDependencies": {
     "alamode": "^3.0.0",
     "documentary": "^1.32.2",
