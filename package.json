@@ -1,6 +1,6 @@
 {
   "name": "@lemuria/control-style",
-  "version": "0.0.0-pre",
+  "version": "1.0.0",
   "description": "Extracts CSS Properties From Component Properties Map And Returns The Composed Style.",
   "main": "build/index.js",
   "module": "src/index.js",
